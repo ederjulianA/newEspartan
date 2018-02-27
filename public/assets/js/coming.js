@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#ms-countdown").countdown("2018/02/27",function(l){$(this).html(l.strftime('<ul class="coming-date coming-date-black"><li>%D <span>Días</span></li><li class="colon">:</li><li>%H <span>Horas</span></li><li class="colon">:</li><li>%M <span>Minutos</span></li><li class="colon">:</li><li>%S <span>Segundos</span></li></ul>'))})});
