@@ -16,7 +16,7 @@ class HomeController extends Controller
     public function index()
 
     {
-    	return view('comming');
+    	return view('home');
     }
 
      public function eder()
